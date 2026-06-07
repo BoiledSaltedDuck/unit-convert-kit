@@ -4,6 +4,8 @@
 [![Downloads](https://img.shields.io/pypi/dm/unit-convert-kit)](https://pypi.org/project/unit-convert-kit/)
 [![License](https://img.shields.io/pypi/l/unit-convert-kit)](https://github.com/BoiledSaltedDuck/unit-convert-kit/blob/main/LICENSE)
 
+> **Office Tools Kit 系列** — 用AI写代码，用工具提效。一行命令搞定日常办公与开发杂务。
+
 ## 安装
 
 ```bash
@@ -50,6 +52,24 @@ unit-convert batch data.txt inch cm
 - 温度自动转换公式
 - 批量文件替换功能
 - 纯 Python，零依赖
+
+## 🧰 Office Tools Kit 系列工具
+
+本工具属于 **Office Tools Kit 系列**，同类工具推荐：
+
+| 工具 | 功能 | 安装 |
+|------|------|------|
+| [office-tools-kit](https://pypi.org/project/office-tools-kit/) | Excel合并拆分、PDF合并 | `pip install office-tools-kit` |
+| [file-org-kit](https://pypi.org/project/file-org-kit/) | 文件智能分类整理 | `pip install file-org-kit` |
+| [img-convert-kit](https://pypi.org/project/img-convert-kit/) | 图片格式批量转换 | `pip install img-convert-kit` |
+| [img-resize-kit](https://pypi.org/project/img-resize-kit/) | 图片批量缩放与压缩 | `pip install img-resize-kit` |
+| [json-tool-kit](https://pypi.org/project/json-tool-kit/) | JSON 文件处理 | `pip install json-tool-kit` |
+| [markdown-kit](https://pypi.org/project/markdown-kit/) | Markdown 文档辅助 | `pip install markdown-kit` |
+| [qr-code-kit](https://pypi.org/project/qr-code-kit/) | 二维码生成与解析 | `pip install qr-code-kit` |
+| [text-clean-kit](https://pypi.org/project/text-clean-kit/) | 文本文件清洗处理 | `pip install text-clean-kit` |
+| [unit-convert-kit](https://pypi.org/project/unit-convert-kit/) | 单位换算 | `pip install unit-convert-kit` |
+
+> 📚 更多工具请访问 [BoiledSaltedDuck 工具主页](https://boiledsaltedduck.github.io/)
 
 ## 支持
 
