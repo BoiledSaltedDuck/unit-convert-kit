@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "unit-convert-kit"
+version = "1.0.0"
+description = "单位换算工具 - 长度/重量/温度/面积/体积/数据大小，支持批量文件单位替换"
+readme = "README.md"
+authors = [
+    {name = "BoiledSaltedDuck", email = "tools@office-tools.pro"}
+]
+license = {text = "MIT"}
+keywords = ["unit", "convert", "converter", "单位换算", "长度", "重量", "温度"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.7"
+dependencies = []
+
+[project.scripts]
+unit-convert = "unit_convert.converter:main"
+
+[tool.setuptools.packages.find]
+include = ["unit_convert*"]

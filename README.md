@@ -1,0 +1,62 @@
+# unit-convert-kit 单位换算工具
+
+[![PyPI version](https://img.shields.io/pypi/v/unit-convert-kit)](https://pypi.org/project/unit-convert-kit/)
+[![Downloads](https://img.shields.io/pypi/dm/unit-convert-kit)](https://pypi.org/project/unit-convert-kit/)
+[![License](https://img.shields.io/pypi/l/unit-convert-kit)](https://github.com/BoiledSaltedDuck/unit-convert-kit/blob/main/LICENSE)
+
+## 安装
+
+```bash
+pip install unit-convert-kit
+```
+
+## 用法
+
+```bash
+# 长度换算
+unit-convert 100 cm m
+
+# 温度换算
+unit-convert 32 f c
+
+# 重量换算
+unit-convert 1.5 kg lb
+
+# 数据大小换算
+unit-convert 1024 mb gb
+
+# 列出所有支持的单位
+unit-convert list
+
+# 批量替换文件中的单位
+unit-convert batch data.txt inch cm
+```
+
+## 支持的类别
+
+| 类别 | 示例单位 |
+|------|----------|
+| 长度 | mm, cm, m, km, inch, ft, yard, mile, 里, 丈, 尺, 寸 |
+| 重量 | mg, g, kg, t, oz, lb, 斤, 两, carat |
+| 温度 | c (摄氏度), f (华氏度), k (开尔文) |
+| 面积 | m², km², ha, acre, 亩, sqft |
+| 体积 | ml, l, m³, gal, qt, pt, cup |
+| 数据大小 | b, kb, mb, gb, tb, kib, mib, gib |
+
+## 特点
+
+- 支持6大类100+种单位
+- 支持中文单位（里、丈、尺、寸、斤、两）
+- 温度自动转换公式
+- 批量文件替换功能
+- 纯 Python，零依赖
+
+## 支持
+
+如果 unit-convert-kit 帮到了您，欢迎打赏支持：
+
+```
+USDT (TRC20): TMPQygMkv42QPeyYnkxMkPwsqs7udbD2Aa
+```
+
+您的支持是开源项目持续发展的动力 ❤️

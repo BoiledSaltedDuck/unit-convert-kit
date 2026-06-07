@@ -1,0 +1,2 @@
+[console_scripts]
+unit-convert = unit_convert.converter:main
